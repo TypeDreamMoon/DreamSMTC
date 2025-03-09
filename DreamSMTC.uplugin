@@ -1,14 +1,14 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "0.0.1",
+	"VersionName": "0.1.0",
 	"FriendlyName": "DreamSMTC",
-	"Description": "Windows System Media Transport Controls(SMTC) Support Plugin.",
+	"Description": "Windows System Media Transport Controls (SMTC) Support Plugin.",
 	"Category": "DreamPlugin",
 	"CreatedBy": "DreamMoon",
 	"CreatedByURL": "https://github.com/typedreammoon",
-	"DocsURL": "",
-	"MarketplaceURL": "",
+	"DocsURL": "https://github.com/TypeDreamMoon/DreamSMTC",
+	"MarketplaceURL": "https://github.com/TypeDreamMoon/DreamSMTC",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
@@ -17,8 +17,12 @@
 		{
 			"Name": "DreamSMTC",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Hololens"
+			]
 		}
 	],
-	"SupportURL": ""
+	"SupportURL": "https://github.com/TypeDreamMoon/DreamSMTC"
 }

@@ -14,6 +14,9 @@
 #include <winrt/Windows.Foundation.h>
 #include <winrt/Windows.Perception.Spatial.h>
 #include <winrt/Windows.Foundation.Collections.h>
+#include <winrt/windows.media.control.h>
+#include <winrt/windows.media.playback.h>
+#include <winrt/windows.applicationmodel.core.h>
 
 #include "Windows/PostWindowsApi.h"
 #include "Windows/HideWindowsPlatformAtomics.h"

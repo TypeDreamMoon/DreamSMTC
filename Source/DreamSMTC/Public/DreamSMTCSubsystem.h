@@ -10,13 +10,13 @@
 #include "DreamSMTCLog.h"
 #include "DreamSMTCSubsystem.generated.h"
 
-struct FDreamSMTCTimelineProperties;
 class UTexture2D;
 
 enum class EDreamSMTCMediaPlaybackType : uint8;
 enum class EDreamSMTCMediaSoundLevel : uint8;
 enum class EDreamSMTCButtonEvent : uint8;
 
+struct FDreamSMTCTimelineProperties;
 struct FDreamSMTCMusicDisplayProperties;
 struct FDreamSMTCImageDisplayProperties;
 struct FDreamSMTCVideoDisplayProperties;
